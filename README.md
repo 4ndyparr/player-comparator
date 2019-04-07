@@ -1,15 +1,15 @@
 # player-comparator
-Jupyter notebook matplotlib dashboard to compare soccer players based on several statistics
+Jupyter notebook matplotlib dashboard to compare soccer players based on several stats
 
 Plots included:
       - goals plus assists VS games
       - goals plus assists per game VS season
       - assists per game VS goals per game
-      - in_play goal percentage VS shots per game
-      - in_play goal percentage unassisted VS in_play goal percentage assisted
-      - inplay long_range shots: goals VS attempts
+      - in play goal percentage VS shots per game
+      - in play goal percentage unassisted VS in play goal percentage assisted
+      - in play long range shots: goals VS attempts
       - free kicks: goals VS attempts
-      - set_piece headers: goals VS attempts
+      - set piece headers: goals VS attempts
       - penalty kicks: goals VS attempts
       
 Statistics included:
