@@ -1,11 +1,32 @@
 # player-comparator
 Jupyter notebook matplotlib dashboard to compare soccer players based on several statistics
 
+Plots included:
+      - goals plus assists VS games
+      - goals plus assists per game VS season
+      - assists per game VS goals per game
+      - in-play goal percentage VS shots per game
+      - in-play goal percentage unassisted VS in-play goal percentage assisted
+      - in-play long-range shots: goals VS attempts
+      - free kicks: goals VS attempts
+      - set-piece headers: goals VS attempts
+      - penalty kicks: goals VS attempts
+      
+Statistics included:
+      - goals
+      - shots
+      - assists
+      - xGs (expected Goals per shot)
+      - GAA (Goals Above Average)
+      
+
 ## about the data:
       the data was scraped from https://understat.com/ into two datasets:
+      
         'allshots.csv' contains the data of all shots from the big five european leagues for the seasons
         from 2014-15 to 2017-18. The attributes recorded include the shot type, the situation or context
-        of the shot, the xG statistic for that shot, and the location of the shot among others.        
+        of the shot, the xG statistic for that shot, and the location of the shot among others. 
+        
         'allinfo.csv' contains data relative to each player such as their team/s each season and the
         number of appearances.
         
