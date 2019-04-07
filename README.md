@@ -1,7 +1,7 @@
 # player-comparator
 Jupyter notebook matplotlib dashboard to compare soccer players based on several statistics
 
-# about the data:
+## about the data:
       the data was scraped from https://understat.com/ into two datasets:
         'allshots.csv' contains the data of all shots from the big five european leagues for the seasons
         from 2014-15 to 2017-18. The attributes recorded include the shot type, the situation or context
@@ -9,11 +9,11 @@ Jupyter notebook matplotlib dashboard to compare soccer players based on several
         'allinfo.csv' contains data relative to each player such as their team/s each season and the
         number of appearances.
         
-# credits:
+## credits:
       this notebook tries to replicate and expand on the interesting analysis and data visualizations
     ideas of Benjamin Morris' articles.
         
-# in retrospect:
+## in retrospect:
       the for loops ('...for player in players') applied to the pandas dataframes, although they make
     the code more readable, are very inefficient! Some of them take minutes!
     I would rewrite those parts using groupby(['player_id']), and applying transformations to these
