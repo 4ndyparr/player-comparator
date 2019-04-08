@@ -1,5 +1,5 @@
 # player-comparator
-Matplotlib dashboard to compare soccer players based on several shooting stats. Written in Jupyter notebook.
+Matplotlib dashboard to compare soccer players based on several shooting stats. Written in a Jupyter notebook.
 
 ## dashboard
 ![Dashboard Sample](https://github.com/4ndyparr/player-comparator/blob/master/dashboard_sample3.png)
