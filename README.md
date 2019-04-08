@@ -17,14 +17,14 @@ number of appearances.
         
 ## credits
 
-This notebook tries to replicate and expand on the interesting analysis and data visualizations
+This notebook tries to replicate and expand on the interesting analyses and data visualizations
 ideas of __Benjamin Morris'__ articles.
         
 ## in retrospect
 
-* The _for_ loops applied to the dataframes within list comprehensions
-`[len(shots[shots.player_id==player]) ... for player in players]`,
-although they make for very readable code, they are very inefficient. Some of them take minutes!
+* The _for_ loops applied to the dataframes within list comprehensions i.e.
+`[len(shots[shots.player_id==player]) for player in players]`,
+although they make for easy readable code, they are very inefficient. Some of them take minutes!
 They loop through the whole database one time per player. I would rewrite those parts using something
 like `shots.groupby(['player_id'])` and applying transformations to these group dataframes,
 which would be exponentially faster.
