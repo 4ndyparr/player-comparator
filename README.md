@@ -1,6 +1,7 @@
 # player-comparator
 Matplotlib dashboard to compare soccer players based on several shooting stats
 
+## screenshot
 ![Dashboard Sample](https://github.com/4ndyparr/player-comparator/blob/master/dashboard_sample3.png)
 
 ## the data
