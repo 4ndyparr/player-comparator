@@ -21,13 +21,6 @@ This notebook tries to replicate and expand on the interesting analyses and data
 ideas of __Benjamin Morris'__ articles.
         
 ## in retrospect
-
-* The _for_ loops applied to the dataframes within list comprehensions i.e.
-`[len(shots[shots.player_id==player]) for player in players]`,
-although they make for easy readable code, they are very inefficient. Some of them take minutes!
-They loop through the whole database one time per player. I would rewrite those parts using something
-like `shots.groupby(['player_id'])` and applying transformations to these group dataframes,
-which would be exponentially faster.
         
 * It would have been interesting to have plotted other statistics such as:
   * xGs-per-shot vs shots (it would show the type of shots each player is taking, and combined with
